@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  
+  background-image: url(https://i.pinimg.com/originals/7a/e0/1b/7ae01bef2ff539cb85d1bd2f1d53fe30.gif);
+  background-size: 10%;
+
+  
+  
+}
+
+.auth-form-container, .login-form, .register-form{
+  display: flex;
+  flex-direction: column;
+}
+
+label{
+  text-align: left;
+  padding: 0.25rem 0;
+  color: rgb(202, 209, 246);
+}
+
+input{
+  margin: 0.5rem 0;
+  padding: .5rem;
+  border: none;
+  border-radius: 10px;
+  background: rgb(248,215,201);
+  background: linear-gradient(0deg, rgba(202, 209, 246) 0%, rgba(255,255,255,1) 100%);}
+button{
+  border: none;
+  background: rgb(248,215,201);
+  background: linear-gradient(0deg, rgba(202, 209, 246) 0%, rgba(255,255,255,1) 100%);
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.link-button{
+  background: none;
+  color: rgb(202, 209, 246);
+  text-decoration: underline;
+}
